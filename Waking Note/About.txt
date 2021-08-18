@@ -1,0 +1,12 @@
+Waking Note is a simple app with the goal of mimicking the best parts of my current "to do" notebook and adding additional features to make the process more simple and efficient.
+
+- the type of light emmitted by the app will be similar to a kindle, low, book-level light
+- the routine of designing each day as its own will be preserved
+
+
+Waking note will allow you to ...
+- create your own categories for items so that future planning is easier
+- preserve persistant items for future days lists
+- "star" special items to remember and find them more easily
+- save pictures from special events alongside the completed item
+- back up the lists to the cloud to allow you to look back on special events

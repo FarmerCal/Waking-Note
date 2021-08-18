@@ -11,6 +11,7 @@
 		F276DAD726CCE36A000D2A61 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F276DAD626CCE36A000D2A61 /* ContentView.swift */; };
 		F276DAD926CCE371000D2A61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F276DAD826CCE371000D2A61 /* Assets.xcassets */; };
 		F276DADC26CCE371000D2A61 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F276DADB26CCE371000D2A61 /* Preview Assets.xcassets */; };
+		F276DAE426CCE3A1000D2A61 /* About.txt in Resources */ = {isa = PBXBuildFile; fileRef = F276DAE326CCE3A1000D2A61 /* About.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		F276DAD826CCE371000D2A61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F276DADB26CCE371000D2A61 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F276DADD26CCE371000D2A61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F276DAE326CCE3A1000D2A61 /* About.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = About.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +54,11 @@
 		F276DAD326CCE36A000D2A61 /* Waking Note */ = {
 			isa = PBXGroup;
 			children = (
+				F276DAE326CCE3A1000D2A61 /* About.txt */,
 				F276DAD426CCE36A000D2A61 /* Waking_NoteApp.swift */,
-				F276DAD626CCE36A000D2A61 /* ContentView.swift */,
+				F276DAE526CCE3AE000D2A61 /* Models */,
+				F276DAE626CCE3B6000D2A61 /* Views */,
+				F276DAE726CCE3C7000D2A61 /* ViewModels */,
 				F276DAD826CCE371000D2A61 /* Assets.xcassets */,
 				F276DADD26CCE371000D2A61 /* Info.plist */,
 				F276DADA26CCE371000D2A61 /* Preview Content */,
@@ -67,6 +72,28 @@
 				F276DADB26CCE371000D2A61 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F276DAE526CCE3AE000D2A61 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F276DAE626CCE3B6000D2A61 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F276DAD626CCE36A000D2A61 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F276DAE726CCE3C7000D2A61 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +153,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F276DAE426CCE3A1000D2A61 /* About.txt in Resources */,
 				F276DADC26CCE371000D2A61 /* Preview Assets.xcassets in Resources */,
 				F276DAD926CCE371000D2A61 /* Assets.xcassets in Resources */,
 			);
